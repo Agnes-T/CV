@@ -1,32 +1,74 @@
+/*
+#
+{
+	
+	
+}
+*/
+
 #wrapper
 {
-	height:800px;
+	height:950px;
 	width:960px;
 	margin:0 auto;
 	background-image:url("pink_rice.png");
+	border-radius:20px 20px 20px 20px;
 }
 
 #header,#footer
 {
-	height:15%;
 	width:100%;
-	
+	background:;
 }
 
 
 #header
 {
+	height:20%;
 	
 }
 
-#spacerHead
+#myName
 {
-	
-	
+	height:30%;
+	width:70%;
+	background-color:LightBlue;
+	float:left;
+}
+
+h1
+{
+	font-size:150%;
+	vertical-align:text-top;
+}
+
+#contact
+{
+	height:40%;
+	width:70%;
+	float:right;
+	background-color:Lavender;
+}
+
+#picture
+{
+	height:100%;
+	width:30%;
+	float:right;
+	background-color:orange;
+}
+
+#unitato
+{
+	width:100%;
 }
 
 #menu
 {
+	width:70%;
+	height:30%;
+	background-color:PeachPuff;
+	float:left;
 	
 }
 
@@ -34,6 +76,7 @@
 {
 	height:70%;
 	width:100%;
+	background-color:SteelBlue;
 }
 
 #sideLeft,#main,#sideRight
@@ -46,16 +89,18 @@
 #sideLeft,#sideRight
 {
 	width:15%;
+	background-color:SeaShell;
 }
 
 #sideLeft
 {
-	
+	background-color:PaleVioletRed;
 }
 
 #main
 {
-	
+	width:70%;
+	background-color:Plum;
 }
 
 #sideRight
@@ -65,5 +110,6 @@
 
 #footer
 {
-	
+	height:10%;
+	background-color:SlateBlue;
 }
