@@ -12,42 +12,35 @@
 	width:960px;
 	margin:0 auto;
 	background-image:url("pink_rice.png");
-	border-radius:20px 20px 20px 20px;
+	border-radius:20px 20px 0px 0px;
 }
 
 #header,#footer
 {
 	width:100%;
-	background:;
 }
 
 
 #header
 {
 	height:20%;
-	
 }
 
 #myName
 {
-	height:30%;
+	height:25%;
 	width:70%;
-	background-color:LightBlue;
+	/*background-color:LightBlue;*/
 	float:left;
-}
-
-h1
-{
-	font-size:150%;
-	vertical-align:text-top;
 }
 
 #contact
 {
-	height:40%;
+	height:30%;
 	width:70%;
 	float:right;
-	background-color:Lavender;
+	/*background-color:Lavender;*/
+	
 }
 
 #picture
@@ -55,7 +48,7 @@ h1
 	height:100%;
 	width:30%;
 	float:right;
-	background-color:orange;
+	/*background-color:orange;*/
 }
 
 #unitato
@@ -63,11 +56,12 @@ h1
 	width:100%;
 }
 
-#menu
+#aboutMe
 {
 	width:70%;
-	height:30%;
-	background-color:PeachPuff;
+	height:40%;
+	/*background-color:PeachPuff;*/
+	line-height:90%;
 	float:left;
 	
 }
@@ -105,11 +99,32 @@ h1
 
 #sideRight
 {
-	
+	background-color:Bisque;
 }
 
 #footer
 {
 	height:10%;
 	background-color:SlateBlue;
+}
+
+h2,#contactInfo,#aboutText
+{
+	font-family:"Helvetica";
+	padding-left:5%;
+}
+
+#aboutText
+{
+	line-height:105%;
+}
+
+#contactInfo
+{
+	line-height:150%;
+}
+
+.thick
+{
+	font-weight:bold;
 }
